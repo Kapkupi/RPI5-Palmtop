@@ -1,4 +1,4 @@
-###### I WON'T BE SHIPPING UNTIL FRIDAY PROBABLY BECAUSE I RAN OUT OF TIME :<
+##### I WON'T BE SHIPPING UNTIL FRIDAY PROBABLY BECAUSE I RAN OUT OF TIME :<
 
 A raspberry pi 5 enclosure with a 3.2 inch screen and a small keyboard. All in a simple and easy to carry clamshell form factor.
 <img width="1469" height="969" alt="Screenshot 2026-09-20 141923" src="https://github.com/user-attachments/assets/97c48196-442f-422c-b956-ff0a6b9bd649" />
