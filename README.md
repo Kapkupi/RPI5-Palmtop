@@ -40,7 +40,9 @@ the top down.
 # First Step:
 The first step after (or during) printing is desoldering the grove connector 
 from your CardKB. Then put your four cables through the hole on the CardKB
-and solder them to the board. It could look something like this:
+and solder them to the board. You may have to remove your jumper heads and
+resolder them later so that it can fit through the hole. 
+It could look something like this:
 
 bild
 (Note: I butchered my CardKB so I had to find other solder points
