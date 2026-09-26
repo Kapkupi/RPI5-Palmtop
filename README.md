@@ -15,7 +15,7 @@ What you will need:
 - [heatsink](https://www.aliexpress.us/item/3256807144291878.html?spm=a2g0o.productlist.main.41.4c7c4080np6g24&algo_pvid=c77e5fc2-3ae9-4ca8-b024-34884b6d3c75&algo_exp_id=c77e5fc2-3ae9-4ca8-b024-34884b6d3c75-40&pdp_ext_f=%7B%22order%22%3A%2284%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%216.46%211.09%21%21%216.46%211.09%21%400b15831117904546162572846e1063%2112000040293851977%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A5ec1ce60%3Bm03_new_user%3A-29895%3BpisId%3A5000000210792313&curPageLogUid=AYNZNWzQDDan&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007330606630%7C_p_origin_prod%3A)
 - somewhat thin (jumper) cables and solder supplies
 
-So now time for the assembly:
+## So now time for the assembly:
 
 First thing to decide is wether you use the heatsink I used or another one.
 This decision is important because if you do not use my heatsink then
@@ -34,7 +34,15 @@ Every part should be printed on its biggest surface except face_plate.
 Face_plate should be printed on the side which faces the front/where two
 latches are.
 
-# First Step:
-The first step
+The spring also needs to be printed on its side so it looks like a snake from
+the top down.
 
+# First Step:
+The first step after (or during) printing is desoldering the grove connector 
+from your CardKB. Then put your four cables through the hole on the CardKB
+and solder them to the board. It could look something like this:
+
+bild
+(Note: I butchered my CardKB so I had to find other solder points
+and even another resistor. You should do a better job than me -.-)
 For the keyboard I used this: https://github.com/ian-antking/cardkb
