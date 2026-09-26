@@ -2,6 +2,7 @@ A raspberry pi 5 enclosure with a 3.2 inch screen and a small keyboard. All in a
 <img width="1469" height="969" alt="Screenshot 2026-09-20 141923" src="https://github.com/user-attachments/assets/97c48196-442f-422c-b956-ff0a6b9bd649" />
 I did this because I really like small computers but specifically in a clamshell shape. There is also no battery 
 because the RPI 5 is very picky and I did not want to deal with that yet.
+
 I have done a project like this before but with a RPI CM 4 and M5Stack cardcomputer but having a pi 5 
 and being exposed to the stardance challenge I could not resist to remake it from scratch but with a pi 5 and my
 additional knowledge which I gained over the years.
@@ -22,16 +23,18 @@ use "case_bottom_main_OPEN" and print two additional "standoff_OPEN",
 you can find these files in the "open" folder in "STEP".
 If you do have my heatsink then only use "case_bottom_main" in the
 "heatsink folder". 
+
 For printing I used my bambu lab A1 with a 0.4mm nozzle and PLA.
 A layer height of 0.2mm so almost just the standard settings in bambu studio.
 I do recommend enabling the setting for detecting thin walls and supports.
 The parts were design with these variables in mind but should also work with
 similar specs.
+
 Every part should be printed on its biggest surface except face_plate.
 Face_plate should be printed on the side which faces the front/where two
 latches are.
 
-#First Step:
+# First Step:
 The first step
 
 For the keyboard I used this: https://github.com/ian-antking/cardkb
