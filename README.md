@@ -37,14 +37,19 @@ latches are.
 The spring also needs to be printed on its side so it looks like a snake from
 the top down.
 
-# First Step:
+## First Steps:
 The first step after (or during) printing is desoldering the grove connector 
-from your CardKB. Then put your four cables through the hole on the CardKB
-and solder them to the board. You may have to remove your jumper heads and
+from your CardKB. Then put your four cables through the hole on the CardKB and
+the hole on the RPI 5 close to it which would normaly be for a cooler but we
+will use it to pass through the cables.
+Then solder them to the CardKB. You may have to remove your jumper heads and
 resolder them later so that it can fit through the hole. 
 It could look something like this:
 
-bild
+<img width="3024" height="4032" alt="IMG_5873" src="https://github.com/user-attachments/assets/2f5f0361-176b-4748-bd80-f7af186af59f" />
 (Note: I butchered my CardKB so I had to find other solder points
-and even another resistor. You should do a better job than me -.-)
+and even another resistor. You should do a better job than me ^-^)
+
+
+
 For the keyboard I used this: https://github.com/ian-antking/cardkb
