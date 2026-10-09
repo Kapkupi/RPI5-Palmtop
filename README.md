@@ -10,9 +10,10 @@ additional knowledge which I gained over the years.
 What you will need:
 - raspberry pi 5
 - [Waveshare 3.2 inch hdmi display](https://www.waveshare.com/3.2inch-hdmi-lcd-h.htm)
+- Four M2.5x6 screws
 - HDMI in ribbon cable format, you can find these on places like aliexpress
 - [M5Stack CardKB](https://shop.m5stack.com/products/cardkb-mini-keyboard-programmable-unit-v1-1-mega8a)
-- [heatsink](https://www.aliexpress.us/item/3256807144291878.html?spm=a2g0o.productlist.main.41.4c7c4080np6g24&algo_pvid=c77e5fc2-3ae9-4ca8-b024-34884b6d3c75&algo_exp_id=c77e5fc2-3ae9-4ca8-b024-34884b6d3c75-40&pdp_ext_f=%7B%22order%22%3A%2284%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%216.46%211.09%21%21%216.46%211.09%21%400b15831117904546162572846e1063%2112000040293851977%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A5ec1ce60%3Bm03_new_user%3A-29895%3BpisId%3A5000000210792313&curPageLogUid=AYNZNWzQDDan&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007330606630%7C_p_origin_prod%3A)
+- [heatsink](https://www.aliexpress.us/item/3256807144291878.html?spm=a2g0o.productlist.main.41.4c7c4080np6g24&algo_pvid=c77e5fc2-3ae9-4ca8-b024-34884b6d3c75&algo_exp_id=c77e5fc2-3ae9-4ca8-b024-34884b6d3c75-40&pdp_ext_f=%7B%22order%22%3A%2284%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%216.46%211.09%21%21%216.46%211.09%21%400b15831117904546162572846e1063%2112000040293851977%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A5ec1ce60%3Bm03_new_user%3A-29895%3BpisId%3A5000000210792313&curPageLogUid=AYNZNWzQDDan&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007330606630%7C_p_origin_prod%3A) (optional)
 - somewhat thin (jumper) cables and solder supplies
 
 ## So now time for the assembly:
@@ -22,7 +23,7 @@ This decision is important because if you do not use my heatsink then
 use "case_bottom_main_OPEN" and print two additional "standoff_OPEN", 
 you can find these files in the "open" folder in "STEP".
 If you do have my heatsink then only use "case_bottom_main" in the
-"heatsink folder". 
+"heatsink" folder. 
 
 For printing I used my bambu lab A1 with a 0.4mm nozzle and PLA.
 A layer height of 0.2mm so almost just the standard settings in bambu studio.
@@ -57,7 +58,7 @@ of the image. These are for the screen.
 Now that the wires are soldered you can route them. Basically just bend them
 towards the GPIOs. Keep the IC near the USB-C connector free so that you can
 still put the thermal pads for cooling on it. The pair of wires for the
-screen should be put inbetween the USB and HDMI port. 
+screen should be put in between the USB and HDMI port. 
 For now it should look something like this:
 
 <img width="2329" height="2148" alt="IMG_5869" src="https://github.com/user-attachments/assets/fe22706c-f7b6-4d41-b79b-15a7494240d5" />
@@ -86,8 +87,10 @@ then just put the screen case into the hinge
 by overextending it by a bit more than 180 degrees. Should not be difficult.
 After connecting both parts you can put the screen buttons in, connect the
 power cables with the headers on the display. Ground should be on the left 
-and 5V on the right. And after making sure the cables are secure you
-can screw the screen in with four M2.5x6 screws. The just plug your mix
-of HDMI connectors in and it should be finished!
+and 5V on the right. And after making sure the cables are secure and you put
+in the buttons for the display you can screw the screen in with four M2.5x6 
+screws. Then just plug your mix of HDMI connectors in and it should be finished!
 
 For the keyboard software I used this: https://github.com/ian-antking/cardkb
+
+If you have any questions or feedback you can dm me on discord! User is "keks357"
