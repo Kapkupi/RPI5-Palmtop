@@ -54,7 +54,7 @@ and even another resistor. You should do a better job than me ^-^)
 As you may have already noticed there is an extra pair of wires on the right
 of the image. These are for the screen.
 
-Now that the wires are soldered we can route them. Basically just bend them
+Now that the wires are soldered you can route them. Basically just bend them
 towards the gpios. Keep the IC near the USB-C connector free so that you can
 still put the thermal pads for cooling on it. The pair of wires for the
 screen should be put inbetween the USB and HDMI port. 
@@ -63,6 +63,16 @@ For now it should look something like this:
 <img width="2329" height="2148" alt="IMG_5869" src="https://github.com/user-attachments/assets/fe22706c-f7b6-4d41-b79b-15a7494240d5" />
 
 Now that the cables are somewhat routed correctly you can put the heatsink
-on.
+on. After putting the heatsink on you can connect the cables with the pins.
+Connect the 3.3V cable for the CardKB with pin 1, the SDA cable with pin 3,
+the SCL cable with pin 5, both ground cables with pins like 6, 9, or 14
+for example. And finally the 5V cable for the screen with pin 4. Could look
+like this:
+
+<img width="3521" height="1768" alt="IMG_5876" src="https://github.com/user-attachments/assets/095c86ca-35ed-42a6-a396-47d8615ccb37" />
+
+As seen in the image already you can put the power cables for the display
+through the hole in the back of the case.
+
 
 For the keyboard software I used this: https://github.com/ian-antking/cardkb
