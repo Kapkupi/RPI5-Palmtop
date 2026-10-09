@@ -43,13 +43,26 @@ from your CardKB. Then put your four cables through the hole on the CardKB and
 the hole on the RPI 5 close to it which would normaly be for a cooler but we
 will use it to pass through the cables.
 Then solder them to the CardKB. You may have to remove your jumper heads and
-resolder them later so that it can fit through the hole. 
+resolder them later so that it can fit through the hole. Your cables can should
+be long enough because ou can always shorten them later if you need to.
 It could look something like this:
 
-<img width="3024" height="4032" alt="IMG_5873" src="https://github.com/user-attachments/assets/2f5f0361-176b-4748-bd80-f7af186af59f" />
+<img width="2444" height="2641" alt="IMG_5873" src="https://github.com/user-attachments/assets/d2d62036-1263-40eb-bbf8-f11718d51895" />
 (Note: I butchered my CardKB so I had to find other solder points
 and even another resistor. You should do a better job than me ^-^)
 
+As you may have already noticed there is an extra pair of wires on the right
+of the image. These are for the screen.
 
+Now that the wires are soldered we can route them. Basically just bend them
+towards the gpios. Keep the IC near the USB-C connector free so that you can
+still put the thermal pads for cooling on it. The pair of wires for the
+screen should be put inbetween the USB and HDMI port. 
+For now it should look something like this:
 
-For the keyboard I used this: https://github.com/ian-antking/cardkb
+<img width="2329" height="2148" alt="IMG_5869" src="https://github.com/user-attachments/assets/fe22706c-f7b6-4d41-b79b-15a7494240d5" />
+
+Now that the cables are somewhat routed correctly you can put the heatsink
+on.
+
+For the keyboard software I used this: https://github.com/ian-antking/cardkb
