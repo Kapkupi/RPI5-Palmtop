@@ -43,8 +43,8 @@ from your CardKB. Then put your four cables through the hole on the CardKB and
 the hole on the RPI 5 close to it which would normaly be for a cooler but we
 will use it to pass through the cables.
 Then solder them to the CardKB. You may have to remove your jumper heads and
-resolder them later so that it can fit through the hole. Your cables can should
-be long enough because ou can always shorten them later if you need to.
+resolder them later so that it can fit through the hole. You should make your
+cables long enough because you can always shorten them later if you need to.
 It could look something like this:
 
 <img width="2444" height="2641" alt="IMG_5873" src="https://github.com/user-attachments/assets/d2d62036-1263-40eb-bbf8-f11718d51895" />
@@ -55,7 +55,7 @@ As you may have already noticed there is an extra pair of wires on the right
 of the image. These are for the screen.
 
 Now that the wires are soldered you can route them. Basically just bend them
-towards the gpios. Keep the IC near the USB-C connector free so that you can
+towards the GPIOs. Keep the IC near the USB-C connector free so that you can
 still put the thermal pads for cooling on it. The pair of wires for the
 screen should be put inbetween the USB and HDMI port. 
 For now it should look something like this:
@@ -72,7 +72,22 @@ like this:
 <img width="3521" height="1768" alt="IMG_5876" src="https://github.com/user-attachments/assets/095c86ca-35ed-42a6-a396-47d8615ccb37" />
 
 As seen in the image already you can put the power cables for the display
-through the hole in the back of the case.
+through the hole in the back of the case. Before putting the pi in don't 
+forget to put the power button into its slot on the left. Then put the 
+pi 5 with the CardKB into the bottom case. With the display power cables 
+it is a bit of a tight fit but should be managable. After putting it in 
+you can also put the face cover on while making sure that the CardKB is 
+correctly aligned.
 
+Now for the screen you should desolder the pogo pins and then solder on
+either some jst connector or headers of some kind. Desoldering was a bit tedious
+but it should be possible. Put the spring into the hole on the right 
+then just put the screen case into the hinge
+by overextending it by a bit more than 180 degrees. Should not be difficult.
+After connecting both parts you can put the screen buttons in, connect the
+power cables with the headers on the display. Ground should be on the left 
+and 5V on the right. And after making sure the cables are secure you
+can screw the screen in with four M2.5x6 screws. The just plug your mix
+of HDMI connectors in and it should be finished!
 
 For the keyboard software I used this: https://github.com/ian-antking/cardkb
