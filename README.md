@@ -92,7 +92,7 @@ correctly aligned.
 Now for the screen you should desolder the pogo pins and then solder on
 either some jst connector or headers of some kind. Desoldering was a bit tedious
 but it should be possible. Put the spring into the hole on the right 
-then just put the screen case into the hinge
+of the hinge then just put the screen case into the hinge
 by overextending it by a bit more than 180 degrees. Should not be difficult.
 After connecting both parts you can put the screen buttons in, put the power
 cables through the designated hole then connect the cables with the headers 
