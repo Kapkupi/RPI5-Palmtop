@@ -62,7 +62,7 @@ It could look something like this:
 and even another resistor. You should do a better job than me ^-^)
 
 As you may have already noticed there is an extra pair of wires on the right
-of the image. These are for the screen.
+of the four cables. These are for the screen.
 
 Now that the wires are soldered you can route them. Basically just bend them
 towards the GPIOs. Keep the IC near the USB-C connector free so that you can
