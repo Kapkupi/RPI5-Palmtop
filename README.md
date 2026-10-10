@@ -1,6 +1,9 @@
 A raspberry pi 5 enclosure with a 3.2 inch screen and a small keyboard. All in a simple and easy to carry clamshell form factor.
-<img width="1469" height="969" alt="Screenshot 2026-09-20 141923" src="https://github.com/user-attachments/assets/97c48196-442f-422c-b956-ff0a6b9bd649" />
-I did this because I really like small computers but specifically in a clamshell shape. There is also no battery 
+
+A little demo video can be found here: https://youtu.be/wP34KrAoiqU
+<img width="1505" height="1962" alt="IMG_E5924" src="https://github.com/user-attachments/assets/6325c8c1-67d7-4974-8383-b55a81814a8b" />
+
+I did this project because I really like small computers but specifically in a clamshell shape. There is also no battery 
 because the RPI 5 is very picky and I did not want to deal with that yet.
 
 I have done a project like this before but with a RPI CM 4 and M5Stack cardcomputer but having a pi 5 
@@ -16,7 +19,7 @@ What you will need:
 - [heatsink](https://www.aliexpress.us/item/3256807144291878.html?spm=a2g0o.productlist.main.41.4c7c4080np6g24&algo_pvid=c77e5fc2-3ae9-4ca8-b024-34884b6d3c75&algo_exp_id=c77e5fc2-3ae9-4ca8-b024-34884b6d3c75-40&pdp_ext_f=%7B%22order%22%3A%2284%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%216.46%211.09%21%21%216.46%211.09%21%400b15831117904546162572846e1063%2112000040293851977%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3A5ec1ce60%3Bm03_new_user%3A-29895%3BpisId%3A5000000210792313&curPageLogUid=AYNZNWzQDDan&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007330606630%7C_p_origin_prod%3A) (optional)
 - somewhat thin (jumper) cables and solder supplies
 
-## So now time for the assembly:
+## For printing:
 
 First thing to decide is wether you use the heatsink I used or another one.
 This decision is important because if you do not use my heatsink then
@@ -38,7 +41,7 @@ latches are.
 The spring also needs to be printed on its side so it looks like a snake from
 the top down.
 
-## First Steps:
+## Assembly:
 The first step after (or during) printing is desoldering the grove connector 
 from your CardKB. Then put your four cables through the hole on the CardKB and
 the hole on the RPI 5 close to it which would normaly be for a cooler but we
