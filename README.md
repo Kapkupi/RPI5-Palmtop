@@ -51,6 +51,7 @@ Then solder them to the CardKB. The pins are from top to bottom:
  - 5V
  - SDA
  - SCL
+   
 You may have to remove your jumper heads and
 resolder them later so that it can fit through the hole. You should make your
 cables long enough because you can always shorten them later if you need to.
