@@ -46,7 +46,12 @@ The first step after (or during) printing is desoldering the grove connector
 from your CardKB. Then put your four cables through the hole on the CardKB and
 the hole on the RPI 5 close to it which would normaly be for a cooler but we
 will use it to pass through the cables.
-Then solder them to the CardKB. You may have to remove your jumper heads and
+Then solder them to the CardKB. The pins are from top to bottom:
+ - Ground
+ - 5V
+ - SDA
+ - SCL
+You may have to remove your jumper heads and
 resolder them later so that it can fit through the hole. You should make your
 cables long enough because you can always shorten them later if you need to.
 It could look something like this:
@@ -88,11 +93,12 @@ either some jst connector or headers of some kind. Desoldering was a bit tedious
 but it should be possible. Put the spring into the hole on the right 
 then just put the screen case into the hinge
 by overextending it by a bit more than 180 degrees. Should not be difficult.
-After connecting both parts you can put the screen buttons in, connect the
-power cables with the headers on the display. Ground should be on the left 
-and 5V on the right. And after making sure the cables are secure and you put
-in the buttons for the display you can screw the screen in with four M2.5x6 
-screws. Then just plug your mix of HDMI connectors in and it should be finished!
+After connecting both parts you can put the screen buttons in, put the power
+cables through the designated hole then connect the cables with the headers 
+on the display. Ground should be on the left and 5V on the right. And after
+making sure the cables are secure and you put in the buttons for the display
+you can screw the screen in with four M2.5x6 screws. Then just plug your mix
+of HDMI connectors in and it should be finished!
 
 For the keyboard software I used this: https://github.com/ian-antking/cardkb
 
