@@ -2,6 +2,7 @@ A raspberry pi 5 enclosure with a 3.2 inch screen and a small keyboard. All in a
 
 A little demo video can be found here: https://youtu.be/wP34KrAoiqU
 <img width="1599" height="1267" alt="IMG_E5930" src="https://github.com/user-attachments/assets/0499c92e-1617-4210-93d1-1baa4b2f8b7f" />
+<img width="1390" height="868" alt="Screenshot 2026-11-04 205003" src="https://github.com/user-attachments/assets/73982b6e-168e-4520-955e-2eb83f6f3408" />
 
 I did this project because I really like small computers but specifically in a clamshell shape. There is also no battery 
 because the RPI 5 is very picky and I did not want to deal with that yet.
