@@ -104,6 +104,8 @@ making sure the cables are secure and you put in the buttons for the display
 you can screw the screen in with four M2.5x6 screws. Then just plug your mix
 of HDMI connectors in and it should be finished!
 
+### Software:
 For the keyboard software I used this: https://github.com/ian-antking/cardkb
 
+#### Contact:
 If you have any questions or feedback you can dm me on discord! User is "keks357"
